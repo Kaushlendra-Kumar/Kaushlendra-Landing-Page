@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Kaushlendra Kumar",
   initials: "KK",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://avinit.xyz",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://kaushlendra.xyz",
   location: "India",
   description: "Software Engineer | MERN | Next.js | ML Enthusiast",
   summary: "Full-stack developer passionate about clean code, AI tools & scalable systems.",
