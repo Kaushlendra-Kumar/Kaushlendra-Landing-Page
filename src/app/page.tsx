@@ -84,7 +84,7 @@ export default function Page() {
           {DATA.projects.map((project, id) => (
             <BlurFade key={project.title} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
               <ResumeCard
-                logoUrl={project.logoUrl ?? "/project.png"} // fallback if no logo
+                logoUrl={(project as any).logoUrl ?? "/project.png"} // fallback if no logo
                 altText={project.title}
                 title={project.title}
                 subtitle={project.description}
@@ -107,7 +107,7 @@ export default function Page() {
           {DATA.achievements.map((ach, id) => (
             <BlurFade key={ach.title} delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
               <ResumeCard
-                logoUrl={ach.logoUrl ?? "/award.png"} // fallback
+                logoUrl={(ach as any).logoUrl ?? "/award.png"} // fallback
                 altText={ach.title}
                 title={ach.title}
                 subtitle={ach.description}
