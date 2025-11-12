@@ -98,6 +98,7 @@ hospital consultation systems, and ML-powered tools.`
       description:
         "An AI-powered toolkit for Microstructure Classification, Steel Alloy Recognition, Database Lookup, Citation Generator & UI/UX interface.",
       technologies: ["React", "Python", "Machine Learning", "Flask", "Pandas"],
+       logoUrl: "/project.png", 
     },
     {
       title: "Sorting Visualizer",
@@ -116,6 +117,7 @@ hospital consultation systems, and ML-powered tools.`
       date: "2025",
       url: "https://learn.microsoft.com/api/credentials/share/en-us/KaushlendraKumar-8899/CF9F5CC07F4669D2?sharingId",
       description: "Certified in GitHub automation & CI/CD workflows"
+      
     },
     {
       title: "500+ DSA Problems Solved",
@@ -123,6 +125,7 @@ hospital consultation systems, and ML-powered tools.`
       url: "https://leetcode.com/u/Kaushlendra_8191/",
       description:
         "Solved 500+ DSA questions across LeetCode, HackerRank & other platforms"
+        
     }
   ]
 } as const;
