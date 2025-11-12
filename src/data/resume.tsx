@@ -11,7 +11,7 @@ export const DATA = {
   avatarUrl: "",
   
   skills: [
-    "React", "Next.js", "TypeScript", "Redux", "Node.js", "Golang",
+    "ReactJS", "Next.js", "TypeScript", "Redux", "Node.js", "Golang",
     "C++", "SQL", "Python", "PostgreSQL", "Redis", "Docker",
     "AWS", "RestAPI", "Solidity", "TensorFlow"
   ],
@@ -113,13 +113,13 @@ hospital consultation systems, and ML-powered tools.`
   achievements: [
     {
       title: "Microsoft – GitHub Actions Certification",
-      date: "2024",
+      date: "2025",
       url: "https://learn.microsoft.com/api/credentials/share/en-us/KaushlendraKumar-8899/CF9F5CC07F4669D2?sharingId",
       description: "Certified in GitHub automation & CI/CD workflows"
     },
     {
       title: "500+ DSA Problems Solved",
-      date: "2024",
+      date: "2021-2025",
       url: "https://leetcode.com/u/Kaushlendra_8191/",
       description:
         "Solved 500+ DSA questions across LeetCode, HackerRank & other platforms"
