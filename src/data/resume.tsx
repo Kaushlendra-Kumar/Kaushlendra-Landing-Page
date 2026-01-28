@@ -52,7 +52,7 @@ export const DATA = {
       },
       X: {
         name: 'X',
-        url: 'https://x.com/Kaushlendra_000',
+        url: 'https://x.com/NoCoSaL',
         icon: Icons.x,
         navbar: true,
       },
