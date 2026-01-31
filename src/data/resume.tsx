@@ -6,7 +6,7 @@ export const DATA = {
   initials: 'KK',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://kaushlendra.xyz',
   location: 'India',
-  description: 'Software Engineer | MERN | Next.js | ML Enthusiast',
+  description: 'Software Engineer | C++ | Backend | ML Enthusiast',
   summary:
     'Full-stack developer passionate about clean code, AI tools & scalable systems.',
   avatarUrl: '',
@@ -159,13 +159,6 @@ export const DATA = {
       url: 'https://learn.microsoft.com/api/credentials/share/en-us/KaushlendraKumar-8899/CF9F5CC07F4669D2?sharingId',
       description: 'Certified in GitHub automation and CI/CD workflows',
       logoUrl: '/microsoft.png',
-    },
-    {
-      title: '500+ DSA Problems Solved',
-      date: '2021-2025',
-      url: 'https://leetcode.com/u/Kaushlendra_8191/',
-      description:
-        'Consistently solving algorithmic challenges across LeetCode, HackerRank, and other platforms',
     },
   ],
 } as const
